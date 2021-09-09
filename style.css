@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a{
+    color: #adadadfd;
+    text-decoration: none;
+}
+body {
+    color: #bdbdbdfd;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#header{
+    padding: 0px 10px;
+    height: 55px;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 2px solid rgb(161, 161, 161);
+}
+#header i{
+    margin: 10px;
+    font-size: 25px;
+}
+#header .icon{
+    width: 400px;
+    display: flex;
+    align-items:center;
+} 
+#header .icon a.face{
+    color: rgb(0, 89, 255);
+}
+#header .icon a.face i{
+    font-size: 40px;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 100%;
+    border: none;
+}
+#header .icon .se{
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.171);
+    border-radius: 20px;
+    margin-left: 5px;
+}
+#header .icon .se input{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    height: 50px;
+}
+#header .Menu{
+    width: 600px;
+}
+#header .Menu a{
+    margin-left: 50px;
+}
+#header .setting{
+    width: 280px;
+    display: flex;
+    align-items:center;
+}
+#header .setting a{
+    background-color: rgba(255, 255, 255, 0.171);
+    border-radius: 50%;
+    margin-left: 5px;
+}
+#header .setting .ava{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 193, 252, 0.459);
+    border-radius: 20px;
+}
+#header .setting .ava img{
+    border-radius: 50px;
+    margin-top: 3px;
+    margin-bottom: -3px;
+}
+#header .setting .ava .name{
+    margin: 0px 10px;
+}
+#About_Me{
+    background-color: rgb(22, 22, 22);
+    height: 1000px;
+}
+#About_Me #About {
+    background-color: rgba(255, 255, 255, 0.068);
+
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+#About_Me #About .slider{
+    width: 1000px;
+    padding-top: 25%;
+    background: url(img/hollow-knight-hornet-dlc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+}
+#About_Me #About .slider .avatar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#About_Me #About .slider .avatar img{
+    border: 3px solid black;
+    border-radius: 50%;
+}
+#About_Me #About .slider .avatar a{
+    align-self: flex-end;
+    background-color: rgb(53, 53, 53);
+    padding: 10px;
+    margin-left: -40px;
+    border-radius: 50%;
+    color: white;
+}
+#main #About_Me #About  h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+#main #About_Me #About p{
+    color: #2E89FF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#main #About_Me #About hr{
+    font-size: -1px;
+    width: 900px;
+}
+#main #About_Me #content{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: rgba(255, 255, 255, 0.068);
+
+}
+#main #About_Me #content .post{
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: -50px;
+}
+#main #About_Me #content .intro{
+    margin: 10px;
+
+    margin-left: -30px;
+    margin-right: -50px;
+}
+#main #About_Me #content .fe{
+    margin: 10px;
+    margin-left: -30px;
+    margin-right: -50px;
+}
+#main #About_Me #content .see{
+    margin: 10px;
+    margin-left: -30px;
+     margin-right: -50px;
+}
+#main #About_Me #content .wall{
+    margin: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#main #About_Me #content .wall .tin{
+    margin-right: 30px;
+    background-color: #2E89FF;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 20px;
+    color: white;
+}
+#main #About_Me #content .wall .change{
+    background-color: rgba(255, 255, 255, 0.171);
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 700;
+
+}
+#main #About_Me #content .wall .more{
+    background-color: rgba(255, 255, 255, 0.171);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 700;
+}
